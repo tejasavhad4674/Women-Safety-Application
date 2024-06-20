@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Women Safety</string>
+    <string name="student_child_helpline">Student/Child Helpline</string>
+    <string name="women_in_distress">Women In Distress</string>
+    <string name="police">Police</string>
+    <string name="domestic_abuse">Domestic Abuse</string>
+    <string name="fire">Fire</string>
+    <string name="back">Back</string>
+    <string name="ambulance">Ambulance</string>
+    <string name="name">Name</string>
+    <string name="enter_name">Enter Name</string>
+</resources>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HelplineNumber"
+    android:background="@drawable/nari">
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="172dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="125dp"
+        android:layout_marginEnd="125dp"
+        android:onClick="f2"
+        android:text="@string/domestic_abuse"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/button5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button7" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="172dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="120dp"
+        android:onClick="f3"
+        android:text="@string/police"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/button6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button4" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="172dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="120dp"
+        android:onClick="f4"
+        android:text="Child Helpline"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button5" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="172dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="125dp"
+        android:layout_marginBottom="40dp"
+        android:onClick="f1"
+        android:text="@string/women_in_distress"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/button4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="172dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="120dp"
+        android:onClick="f5"
+        android:text="@string/ambulance"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/button9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button6" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="172dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="120dp"
+        android:onClick="f6"
+        android:text="@string/fire"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button8" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="1dp"
+        android:onClick="back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_revert"
+        android:contentDescription="@string/back" />
+</androidx.constraintlayout.widget.ConstraintLayout>
